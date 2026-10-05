@@ -1,0 +1,18 @@
+{
+  "default-registry": {
+    "kind": "git",
+    "repository": "https://github.com/microsoft/vcpkg",
+    "baseline": "REPLACE_WITH_A_CURRENT_VCPKG_COMMIT_HASH"
+  },
+  "registries": [
+    {
+      "kind": "git",
+      "repository": "https://gitlab.com/colorglass/vcpkg-colorglass",
+      "baseline": "REPLACE_WITH_A_CURRENT_COLORGLASS_COMMIT_HASH",
+      "packages": [
+        "commonlibsse-ng",
+        "commonlibsse-ng-extern"
+      ]
+    }
+  ]
+}
